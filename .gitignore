@@ -1,5 +1,20 @@
-* .swp
-* ~
-\#*\#
+*.swp
+*~
+.\#*
+
+.cache/
+local/
+.loom/
+workspaces.d/
+
+.env/
+straight/
 
 .config.el.swp
+
+.DS_Store
+Thumbs.db
+
+!config.el
+!init.el
+!packages.el 
