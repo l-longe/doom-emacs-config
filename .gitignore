@@ -18,3 +18,10 @@ Thumbs.db
 !config.el
 !init.el
 !packages.el 
+
+config.el.save.1
+
+*.1
+
+*.save
+custom.el
