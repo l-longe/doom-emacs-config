@@ -32,6 +32,11 @@
 (setq org-directory "~/org/")
 (doom/set-frame-opacity 90)
 
+;; make transparency permanent
+(set-frame-parameter (selected-frame) 'alpha-background 90) ;; for current frame
+(add-to-list 'default-frame-alist '(alpha-background . 90)) ;; for future frames
+
+
 ;; ----- dashboard: banner + my cheat-sheet -----
 
 (defun my/dashboard-cheat-sheet ()
